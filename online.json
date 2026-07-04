@@ -1,0 +1,59 @@
+{
+  "Version": "2.0.1",
+  "Servers": [],
+  "SSH": [
+    {
+      "Name": "México  PREMIUM",
+      "ServerIP": "mx.sinnombre.xyz",
+      "Category": "PREMIUM",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "ProxyIP": "mx.sinnombre.xyz",
+      "ProxyPort": "80",
+      "ServerUser": "sn",
+      "ServerPass": "sn",
+      "isAutoLogin": true
+    },
+    {
+      "Name": "Estados Unidos PREMIUM",
+      "ServerIP": "95.182.86.238",
+      "Category": "PREMIUM",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "ProxyIP": "95.182.86.238",
+      "ProxyPort": "80",
+      "ServerUser": "demo",
+      "ServerPass": "demo",
+      "isAutoLogin": true
+    }
+  ],
+  "Networks": [],
+  "SSLNetworks": [
+    {
+      "Name": "demos",
+      "SNIHost": "payload",
+      "Payload": "GET protocol ",
+      "Info": "pruebas ",
+      "TunnelType": 4,
+      "ProxySettings": {
+        "Squid": "[Default]",
+        "Port": "[Default]"
+      }
+    },
+    {
+      "Name": "Oxxo sin saldo 🇲🇽",
+      "SNIHost": "ahorrocel.com",
+      "Payload": "",
+      "Info": "sn clips ",
+      "TunnelType": 3,
+      "ProxySettings": {
+        "Squid": "[Predeterminado]",
+        "Port": "[Predeterminado]"
+      }
+    }
+  ],
+  "UDPCustom": [],
+  "DNSTT": [],
+  "V2RAYCustom": [],
+  "Notes": "demos 2"
+}
