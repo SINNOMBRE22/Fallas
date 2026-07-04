@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "Servers": [],
   "SSH": [
     {
@@ -12,6 +12,18 @@
       "ProxyPort": "80",
       "ServerUser": "sn",
       "ServerPass": "sn",
+      "isAutoLogin": true
+    },
+    {
+      "Name": "Estados Unidos PREMIUM",
+      "ServerIP": "95.182.86.238",
+      "Category": "PREMIUM",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "ProxyIP": "95.182.86.238",
+      "ProxyPort": "80",
+      "ServerUser": "demo",
+      "ServerPass": "demo",
       "isAutoLogin": true
     }
   ],
