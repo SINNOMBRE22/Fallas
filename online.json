@@ -1,1 +1,36 @@
-   ​               ‌ ‏       ​           ‍ ‏ ​         ‌           ​                                                 ​ ​         ‏   ‎       ​ ‏ ‌         ‎ ‏     ‏             ‌           ​       ​         ​     ‏           ‎     ‌       ​ ‎   ​ ‍     ‎     ‏             ‌       ‌         ‎ ‎                     ‎ ​       ‍           ‌       ‏     ​               ​   ‎                   ‎   ‏       ‏ ‏                                       ‌   ‏                               ‏ ‎                     ​         ‏                         ‍           ‏ ‏             ​ ​   ‏       ‎     ​ ‍ ‎       ‍         ‌                         ‏                 ‌                             ​   ‏         ‍               ‌           ​                               ‏   ‎     ‏   ‍                                                             ​       ‏       ‌                 ​   ‍                   ‎           ‌   ‍     ‏   ‍     ‏   ​                   ‎                   ​           ‍                   ​       ​         ‌             ​   ‎               ​         ​     ‌     ‍         ‏             ‏     ‏                           ‏                       ‌ ‏           ‏       ‏   ‍               ​     ‏               ‍   ​                   ‍           ‏ ‌       ‌                                 ‌       ‍ ‌       ​           ‎                                   ‏   ​ ‎ ‎                   ‏ ‌   ‎       ‎               ​         ​ ‏     ‍             ‍   ​ ‍                               ‍         ‍         ‎         ‏       ‍       ‏     ‍               ‍     ​     ‍           ‍   ‌                         ​         ‍                           ‍               ‍         ‌       ​         ​ ​                   ‍                                 ‏   ‎   ‏                           ‌           ​ ‎                                                   ‌               ‌   ‎   ‌   ‏             ‎             ‏      
+{
+  "Version": "1.0.1",
+  "Servers": [],
+  "SSH": [
+    {
+      "Name": "México  PREMIUM",
+      "ServerIP": "mx.sinnombre.xyz",
+      "Category": "PREMIUM",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "ProxyIP": "mx.sinnombre.xyz",
+      "ProxyPort": "80",
+      "ServerUser": "sn",
+      "ServerPass": "sn",
+      "isAutoLogin": true
+    }
+  ],
+  "Networks": [],
+  "SSLNetworks": [
+    {
+      "Name": "demos",
+      "SNIHost": "payload",
+      "Payload": "GET protocol ",
+      "Info": "pruebas ",
+      "TunnelType": 4,
+      "ProxySettings": {
+        "Squid": "[Default]",
+        "Port": "[Default]"
+      }
+    }
+  ],
+  "UDPCustom": [],
+  "DNSTT": [],
+  "V2RAYCustom": [],
+  "Notes": "demos"
+}
