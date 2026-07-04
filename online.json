@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "Servers": [],
   "SSH": [
     {
@@ -38,6 +38,17 @@
       "ProxySettings": {
         "Squid": "[Default]",
         "Port": "[Default]"
+      }
+    },
+    {
+      "Name": "Oxxo sin saldo 🇲🇽",
+      "SNIHost": "ahorrocel.com",
+      "Payload": "",
+      "Info": "sn clips ",
+      "TunnelType": 3,
+      "ProxySettings": {
+        "Squid": "[Predeterminado]",
+        "Port": "[Predeterminado]"
       }
     }
   ],
